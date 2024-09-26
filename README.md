@@ -16,4 +16,4 @@ Este é um jogo de rodadas onde o jogador controla um(a) herói(na) que enfrenta
 3. Acompanhe as rodadas e o status do(a) herói(na) após cada desafio.
 
 ## Autores
-Desenvolvido por [Seu Nome].
+Desenvolvido por [Herik Willian Nogueira Soares e Yury Gabriel Soares Silveira].
