@@ -27,7 +27,7 @@ function mostrarStatus() {
     console.log(`Status de ${heroi.nome}:`);
     console.log(`Vida: ${heroi.vida}`);
     console.log(`Força: ${heroi.forca}`);
-    console.log(`Recursos: Dinheiro = ${heroi.dinheiro}`); // Adicionando "Recursos: Dinheiro"
+    console.log(`Recursos: Dinheiro = ${heroi.dinheiro}`);
     console.log('-------------------------');
 
     const statusDiv = document.createElement('div');
