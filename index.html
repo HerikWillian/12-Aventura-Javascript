@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Aventura</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Jogo de Aventura</h1>
+    <div class="container">
+        <header>
+            <h1>Jogo de Aventura</h1>
+            <p>Prepare-se para embarcar em uma jornada épica!</p>
+        </header>
+
+        <section class="content">
+            <h2>Bem-vindo(a), herói(na)!</h2>
+            <p>Embarque em uma aventura cheia de perigos e recompensas. Use o console do navegador para jogar.</p>
+            <p>Para começar, clique com o botão direito do mouse e selecione "Inspecionar", abra o console e digite
+                <code>start()</code>.</p>
+            
+            <h3>Regras do Jogo:</h3>
+            <ul>
+                <li>Você começará com 100 de vida, 10 de força e 50 de dinheiro.</li>
+                <li>A cada rodada, você enfrentará um desafio aleatório.</li>
+                <li>Os desafios podem reduzir sua vida ou aumentar seu dinheiro.</li>
+                <li>Se a vida chegar a 0 ou menos, você será derrotado(a)!</li>
+                <li>O jogo termina se você completar 5 rodadas ou for derrotado(a).</li>
+                <li>Se você completar todas as rodadas, você vence!</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Desenvolvido por <strong>Herik Willian Nogueira Soares e Yury Gabriel Soares Silveira</strong> | © 2024</p>
+        </footer>
+    </div>
+
     <script src="main.js"></script>
 </body>
+
 </html>
